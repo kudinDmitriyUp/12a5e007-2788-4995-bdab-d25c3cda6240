@@ -55,7 +55,7 @@ export default function LandingPage() {
       <div id="about" data-section="about">
         <MediaSplitTabsAbout
           title="About Our Clinic"
-          description="Vitality Chiropractic stands as a beacon of excellence in holistic healthcare."
+          description="Restoring mobility and wellness for over 1,000 patients annually through comprehensive chiropractic care and evidence-based treatment protocols."
           tabs={[
             {
               id: "expertise",
