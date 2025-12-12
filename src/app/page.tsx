@@ -108,6 +108,12 @@ export default function LandingPage() {
               }
             }
           ]}
+          buttons={[
+            {
+              text: "Schedule Treatment",
+              href: "contact"
+            }
+          ]}
           showStepNumbers={true}
           textboxLayout="default"
           useInvertedBackground="noInvert"
