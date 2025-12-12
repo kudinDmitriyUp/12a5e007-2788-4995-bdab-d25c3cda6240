@@ -10,7 +10,7 @@ import TestimonialCardThirteen from '@/components/sections/testimonial/Testimoni
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Linkedin, Facebook, Instagram } from "lucide-react";
+import { Linkedin, Facebook, Instagram, Phone, MapPin, Clock } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -106,6 +106,12 @@ export default function LandingPage() {
               phoneTwo: {
                 imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1765552640918-7slzyrml.jpg"
               }
+            }
+          ]}
+          buttons={[
+            {
+              text: "Schedule Treatment",
+              href: "contact"
             }
           ]}
           showStepNumbers={true}
@@ -298,6 +304,14 @@ export default function LandingPage() {
         <FooterSocial
           logoText="Vitality Chiropractic"
           columns={[
+            {
+              title: "Contact Info",
+              items: [
+                { label: "(555) 123-4567", href: "tel:+15551234567" },
+                { label: "123 Wellness Ave, Suite 100", href: "#" },
+                { label: "Mon-Fri: 8am-6pm, Sat: 9am-2pm", href: "#" }
+              ]
+            },
             {
               title: "Services",
               items: [
